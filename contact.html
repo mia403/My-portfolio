@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore my experiences and achievement in my life!!!">
+  <meta name="description" content="Explore my experiences and achievements in my life!!!">
   <meta name="author" content="Mia">
   <meta name="keywords" content="Portfolio">
 
@@ -20,61 +20,77 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/jpg" href="Images/prof.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <title>Mahdia Askari Portfolio</title>
 </head>
 
 <body>
-       <header>
-  <nav>
-    <ul class="nav">
-      <li class="nav-list"><a href="index.html">Home</a></li>
-      <li class="nav-list"><a href="projects.html">Projects</a></li>
-      <li class="nav-list"><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </nav>
-   </header>
 
- <div class="contact-container">
-  <div class="contact-content">
-    <!-- Left Side: Heading + Paragraph + Links -->
-    <div class="contact-info">
-      <h2>Let's Get in Touch</h2>
-      <p>If you’re ready to build something creative and meaningful together, don’t hesitate to reach out. I’m just a message away!</p>
+  <!-- Header Navigation -->
+  <header>
+    <nav>
+      <ul class="nav">
+        <li class="nav-list"><a href="index.html">Home</a></li>
+        <li class="nav-list"><a href="projects.html">Projects</a></li>
+        <li class="nav-list"><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <div class="social-links">
-        <!-- Email -->
-        <a href="mailto:mahdiyeaskari56@gmail.com" class="icon-link" target="_blank">
-          <i class="fas fa-envelope"></i> mahdiyeaskari56@gmail.com
-        </a>
+  <!-- Main Content -->
+  <main>
+    <section class="contact-container" aria-labelledby="contact-heading">
+      <div class="contact-content">
 
-        <!-- Twitter -->
-        <a href="https://x.com/Mia_Askari" class="icon-link" target="_blank">
-          <i class="fab fa-twitter"></i> Mia_Askari
-        </a>
+        <!-- Contact Info -->
+        <article class="contact-info">
+          <h2 id="contact-heading">Let's Get in Touch</h2>
+          <p>If you’re ready to build something creative and meaningful together, don’t hesitate to reach out. I’m just a message away!</p>
 
-        <!-- GitHub -->
-        <a href="https://github.com/mia403" class="icon-link" target="_blank">
-          <i class="fab fa-github"></i> github.com/mia403
-        </a>
+          <address class="social-links">
+            <!-- Email -->
+            <a href="mailto:mahdiyeaskari56@gmail.com" class="icon-link" target="_blank">
+              <i class="fas fa-envelope"></i> mahdiyeaskari56@gmail.com
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://x.com/Mia_Askari" class="icon-link" target="_blank">
+              <i class="fab fa-twitter"></i> Mia_Askari
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/mia403" class="icon-link" target="_blank">
+              <i class="fab fa-github"></i> github.com/mia403
+            </a>
+          </address>
+        </article>
+
+        <!-- Contact Form -->
+        <section class="contact-form" aria-label="Contact Form">
+          <form>
+            <label for="name" class="sr-only">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email" class="sr-only">Your Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </section>
+
       </div>
-    </div>
+    </section>
+  </main>
 
-    <!-- Right Side: Form -->
-    <div class="contact-form">
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-</div>
-<footer class="footer">
-  <p>Designed & built with 💜 by Mahdiye Askari</p>
-</footer>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & built with 💜 by Mahdiye Askari</p>
+  </footer>
 
 </body>
+
+</html>
