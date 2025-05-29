@@ -1,5 +1,5 @@
 Portfolio Website
-Welcome to my personal portfolio website! This site showcases my skills, projects, and ways to get in touch. Designed with a clean, modern vibe and fully responsive so it looks fire on any device — from phones to desktops.
+Welcome to my personal portfolio website! This site showcases my skills, projects, and ways to get in touch. Designed with a clean, modern vibe and fully responsive so it looks fire on any device — from phones to desktops. The theme of my websites is shades of purple that is a calm and minimalist.
 
 Features
 Navigation Bar: Simple top-right aligned menu for easy access
